@@ -1,0 +1,54 @@
+
+.hero-cont{
+    background-color: #f9f9f9;
+    display: flex;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.hero-txt{
+    /* border: 1px solid red; */
+    width: 35%;
+}
+.hero-txt h1{
+    color: #2d2e32;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.hero-txt--about{
+    color: #555;
+    font-family: Mulish, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.tech-stack--txt{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(205, 17, 17);
+    margin-top: 50px;
+}
+
+.hero-img-cont{
+    /* border: 1px solid red; */
+    width: 16%;
+    /* margin-left: -300px; */
+}
+.hero-img-cont img{
+    margin-top: 30px;
+    width: 100%;
+}
+/* .hero-device{
+    margin-top: 30px;
+}
+.hero-device img{
+    width: 50%;
+} */
+

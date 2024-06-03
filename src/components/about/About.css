@@ -1,0 +1,21 @@
+
+.about-cont{
+    background-color: #6E07F3;
+    height: 400px;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.about-cont h3{
+   color: white;
+   font-size: 25px;
+   padding-top: 100px;
+}
+
+.about-cont p{
+    color: white;
+    font-size: 18px;
+    width: 40%;
+    padding-top: 20px;
+    font-weight: 500;
+ }
