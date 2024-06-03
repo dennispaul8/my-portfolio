@@ -6,7 +6,7 @@ export const Navbar = ()=>{
   return(
     <>
 
-<nav class="navbar navbar-expand-lg " style={{backgroundColor:"#ffffff"}}>
+<nav class="navbar navbar-expand-lg nav-cont" >
   <div class="container-fluid">
     <a class="navbar-brand nav-img" href="#">LOGO</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
