@@ -39,7 +39,7 @@
 .hero-img-cont{
     /* border: 1px solid red; */
     width: 16%;
-    /* margin-left: -300px; */
+    margin-left: -200px;
 }
 .hero-img-cont img{
     margin-top: 30px;

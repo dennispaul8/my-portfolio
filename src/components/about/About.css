@@ -2,20 +2,53 @@
 .about-cont{
     background-color: #6E07F3;
     height: 400px;
-    margin-top: -5px;
-    text-align: center;
+    display: flex;
 }
 
-.about-cont h3{
-   color: white;
-   font-size: 25px;
-   padding-top: 100px;
+.about-cont img{
+  width: 40%;
+  margin-left: 150px;
 }
 
-.about-cont p{
+
+.about-txt{
+    margin-top: 100px;
+    margin-left: -140px;
+}
+
+.about-name{
     color: white;
-    font-size: 18px;
-    width: 40%;
-    padding-top: 20px;
+    font-family: Mulish, sans-serif;
+    font-size: 1.1rem;
     font-weight: 500;
+    line-height: 1.6;
+    width: 50%;
+ }
+
+ .about-stack{
+    color: white;
+    font-family: Mulish, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    width: 50%;
+    padding-top: 20px;
+ }
+
+ .about-role{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    width: 50%;
+ }
+
+ .about-heading{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    width: 50%;
  }
