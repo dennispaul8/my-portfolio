@@ -6,20 +6,20 @@
 }
 
 .about-cont img{
-  width: 40%;
-  margin-left: 150px;
+  width: 30%;
+  margin-left: 250px;
 }
 
 
 .about-txt{
     margin-top: 100px;
-    margin-left: -140px;
+    margin-left: -170px;
 }
 
 .about-name{
     color: white;
     font-family: Mulish, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.6;
     width: 50%;
@@ -28,7 +28,7 @@
  .about-stack{
     color: white;
     font-family: Mulish, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.6;
     width: 50%;
