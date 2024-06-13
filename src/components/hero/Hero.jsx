@@ -1,5 +1,5 @@
 import './Hero.css'
-
+import img from "../../../public/avatar.svg";
 export const Hero = () => {
 
     return (
@@ -22,20 +22,8 @@ export const Hero = () => {
                 </div>
 
                 <div className="hero-img-cont">
-                    <img src="../public/avatar.svg" alt="" />
+                    <img src={img} alt="avatar" />
                 </div>
-
-                {/* <div className='hero-device'>
-                    <img src="../public/hero-devices.svg" alt="" />
-
-
-                    <p align="center">
-                        <a href="https://skillicons.dev">
-                            <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
-                        </a>
-                    </p>
-
-                </div> */}
             </div>
         </>
     )

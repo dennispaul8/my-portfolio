@@ -1,4 +1,5 @@
 import './About.css'
+import img from '../../../public/hero-devices.svg'
 
 export const About = () => {
 
@@ -6,7 +7,7 @@ export const About = () => {
 
         <>
             <div id='about' className="about-cont">
-                <img src="../public/hero-devices.svg" alt="" />
+                <img src={img} alt="computer" />
 
                 <div className="about-txt">
                     <h2 className='about-heading'>About Me</h2>

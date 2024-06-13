@@ -1,5 +1,5 @@
 import './Navbar.css'
-// import logo from '../../../public/mr-fresh-logo.jpeg'
+import logo from '../../../public/dennis.dev.png'
 
 export const Navbar = ()=>{
 
@@ -7,8 +7,8 @@ export const Navbar = ()=>{
     <>
 
 <nav class="navbar navbar-expand-lg nav-cont" >
-  <div class="container-fluid">
-    <a class="navbar-brand nav-img" href="#">Dennis.dev</a>
+  <div class="container-fluid move">
+    <a class="navbar-brand nav-img" href="#"><img src={logo} alt="" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
