@@ -13,7 +13,7 @@ export const Hero = () => {
                     
                     <div className="tech-stack--cont">
                     <p className='tech-stack--txt'>Tech Stack |</p>
-                    <div className='skill-icons--cont'> 
+                        <div className='skill-icons--cont'> 
                                 <img className='html-js--skills' src="https://skillicons.dev/icons?i=html,js" />
                                 <img className='bs-tw--skills' src="https://skillicons.dev/icons?i=bootstrap,tailwind" />
                                 <img className='react--skill' src="https://skillicons.dev/icons?i=react,next" />

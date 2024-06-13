@@ -47,16 +47,17 @@
 
 .tech-stack--cont{
     align-items: center;
+   /* width: 70%; */
+
 }
 
 .skill-icons--cont{
     margin-top: 30px;
-   cursor: pointer;
 
 }
 
 .html-js--skills{
-    width: 16%;
+    width: 19%;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
@@ -67,7 +68,7 @@
 }
 
 .bs-tw--skills{
-   width: 16%;
+   width: 19%;
    margin-left: 30px;
    position: relative;
    top: 0;
@@ -80,7 +81,7 @@
 
 .react--skill{
    margin-left: 30px;
-   width: 16%;
+   width: 19%;
    position: relative;
    top: 0;
    transition: top ease 0.5s;
