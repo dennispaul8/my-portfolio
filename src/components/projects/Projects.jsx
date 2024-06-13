@@ -5,7 +5,7 @@ export const Projects = () => {
     return (
 
         <>
-            <div className="projects-cont">
+            <div id='projects' className="projects-cont">
                 <div className="projects-cont-heading">
                     <h3>Projects</h3>
                 </div>

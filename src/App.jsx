@@ -8,6 +8,7 @@ import { Hero } from './components/hero/Hero.jsx'
 import { About } from './components/about/About.jsx'
 import { Projects } from './components/projects/Projects.jsx'
 import { Contact } from './components/contact/Contact.jsx'
+import { Footer } from './components/footer/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
      <About/>
      <Projects/>
      <Contact/>
+     <Footer/>
     </>
   )
 }

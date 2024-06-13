@@ -5,7 +5,7 @@ export const About = () => {
     return (
 
         <>
-            <div className="about-cont">
+            <div id='about' className="about-cont">
                 <img src="../public/hero-devices.svg" alt="" />
 
                 <div className="about-txt">

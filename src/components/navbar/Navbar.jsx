@@ -16,9 +16,7 @@ export const Navbar = ()=>{
       <div class="navbar-nav nav-txt">
         <a class="nav-link" aria-current="page" href="/">Home</a>
         <a class="nav-link" href="#about">About</a>
-    
-        <a class="nav-link" href="#menu">Technologies</a>
-        <a class="nav-link" href="#menu">Projects</a>
+        <a class="nav-link" href="#projects">Projects</a>
         <a class="nav-link" href="#contact">Contact</a>
       </div>
     </div>
