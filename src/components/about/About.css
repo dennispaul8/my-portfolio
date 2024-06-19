@@ -61,9 +61,9 @@
  @media (max-width:600px) {
    .about-cont{
       background-color: #6E07F3;
-      height: 650px;
+      height: 600px;
       display: flex;
-      /* flex-direction: column; */
+      flex-direction: column;
       padding-top: 50px;
   }
   
