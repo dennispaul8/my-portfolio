@@ -18,7 +18,7 @@ export const Projects = () => {
                                     {/* <img className="flip-box-front--img" src="../../../public/mr-fresh-logo.jpeg" alt="Paris"/> */}
                                 </div>
                                 <div class="flip-box-back">
-                                    <a className='link' href="https://mr-fresh-kitchen.vercel.app/">Visit Website</a>
+                                    <a className='link' target="_blank"  href="https://mr-fresh-kitchen.vercel.app/">Visit Website</a>
                                 </div>
                             </div>
                         </div>
