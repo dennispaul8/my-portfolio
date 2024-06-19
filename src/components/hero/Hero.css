@@ -8,7 +8,6 @@
 }
 
 .hero-txt{
-    /* border: 1px solid red; */
     width: 35%;
 }
 .hero-txt h1{
@@ -37,7 +36,7 @@
 .hero-img-cont{
     /* border: 1px solid red; */
     width: 16%;
-    margin-left: -300px;
+    display: block;
 }
 .hero-img-cont img{
     margin-top: 30px;
@@ -92,18 +91,16 @@
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 600px) {
     .hero-cont{
         background-color: #f9f9f9;
         display: flex;
         height: 500px;
         width: 100%;
         padding-top: 50px;
-        flex-direction: column;
     }
     
     .hero-txt{
-        /* border: 1px solid red; */
         width: 100%;
     }
     .hero-txt h1{
@@ -174,4 +171,182 @@
        transition: top ease 0.5s;
     }
     
+}
+
+
+@media (min-width: 768px) {
+    .hero-cont{
+        background-color: #f9f9f9;
+        display: flex;
+        height: 450px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .hero-txt{
+        width: 100%;
+    }
+    .hero-txt h1{
+        color: #2d2e32;
+        font-size: 2.3rem;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .hero-txt--about{
+        color: #555;
+        font-family: Mulish, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
+    .tech-stack--txt{
+        font-size: 17px;
+        font-weight: 500;
+        color: #555;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .hero-img-cont{
+        display: none;
+    }
+    
+    .tech-stack--cont{
+        align-items: center;
+       text-align: center;
+    
+    }
+    
+    .skill-icons--cont{
+        margin-top: 30px;
+    }
+    
+    .html-js--skills{
+        width: 12%;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
+    }
+   
+    
+    .bs-tw--skills{
+       width: 12%;
+       margin-left: 30px;
+       position: relative;
+       top: 0;
+       transition: top ease 0.5s;
+    }
+   
+    
+    .react--skill{
+       margin-left: 30px;
+       width: 12%;
+       position: relative;
+       top: 0;
+       transition: top ease 0.5s;
+    }
+    
+}
+
+
+@media (min-width:1280px) {
+    .hero-cont{
+        background-color: #f9f9f9;
+        display: flex;
+        height: 500px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .hero-txt{
+        width: 35%;
+    }
+    .hero-txt h1{
+        color: #2d2e32;
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        text-align:left;
+    }
+    
+    .hero-txt--about{
+        color: #555;
+        font-family: Mulish, sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 1.6;
+        text-align:left;
+    }
+    
+    .tech-stack--txt{
+        font-size: 17px;
+        font-weight: 500;
+        color: #555;
+        margin-top: 50px;
+        text-align:left;
+    }
+    
+    .hero-img-cont{
+        width: 18%;
+        margin-left: -120px;
+        display: block;
+    }
+    .hero-img-cont img{
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    
+    .tech-stack--cont{
+        align-items: center;
+       text-align:left;
+    
+    }
+    
+    .skill-icons--cont{
+        margin-top: 30px;
+    
+    }
+    
+    .html-js--skills{
+        width: 19%;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
+    }
+    .html-js--skills:hover{
+        transition: all .3s ease-in-out;
+        top: -10px;
+    }
+    
+    .bs-tw--skills{
+       width: 19%;
+       margin-left: 30px;
+       position: relative;
+       top: 0;
+       transition: top ease 0.5s;
+    }
+    .bs-tw--skills:hover{
+        transition: all .3s ease-in-out;
+        top: -10px;
+    }
+    
+    .react--skill{
+       margin-left: 30px;
+       width: 19%;
+       position: relative;
+       top: 0;
+       transition: top ease 0.5s;
+    }
+    .react--skill:hover{
+        transition: all .3s ease-in-out;
+        top: -10px;
+    }
 }

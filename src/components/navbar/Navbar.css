@@ -14,7 +14,7 @@
 
 .nav-txt{
     width: 40%;
-    margin-top: -27px;
+    margin-top: 2px;
 }
 
 .nav-txt a{
@@ -26,15 +26,115 @@
 .nav-txt a:hover{
     color: #6E07F3;
     transition: .2s all;
-    /* border-bottom: 3px dotted #f3873a; */
 }
 
 .nav-img{
     width: 20%;
-    /* margin-left: 130px; */
+    margin-left: 270px;
 }
 
 .nav-img img{
-    margin-top: 20px;
+    margin-top: 1px;
    margin-left: 30px;
+}
+
+
+@media (max-width:600px) {
+   
+    
+    .move{
+        margin-left: 0px;
+    }
+    
+    .nav-txt{
+        width: 40%;
+    }
+    
+    .nav-img{
+        width: 16%;
+        margin-left: 20px;
+    }
+    
+    .nav-img img{
+        margin-top: 1px;
+    }
+}
+
+
+
+@media (min-width:768px){
+
+    .move{
+        margin-left: 0px;
+    }
+    
+    .nav-txt{
+        width: 40%;
+    }
+    
+    .nav-img{
+        width: 16%;
+        margin-left: 20px;
+    }
+    
+    .nav-img img{
+        margin-top: 1px;
+    }
+}
+
+
+@media (min-width:900px){
+
+    .move{
+        margin-left: 0px;
+    }
+    
+    .nav-txt{
+        width: 40%;
+    }
+    
+    .nav-img{
+        width: 16%;
+    }
+    
+    .nav-img img{
+        margin-top: 1px;
+    }
+}
+
+@media (min-width:1024px){
+    .move{
+        margin-left: 0px;
+    }
+    
+    .nav-txt{
+        width: 40%;
+    }
+    
+    .nav-img{
+        width: 16%;
+    }
+    
+    .nav-img img{
+        margin-top: 1px;
+    }
+}
+
+@media (min-width:1280px){
+    .move{
+        margin-left: 0px;
+    }
+    
+    .nav-txt{
+        width: 40%;
+    }
+    
+    .nav-img{
+        width: 16%;
+       margin-left: 200px;
+    }
+    
+    .nav-img img{
+        margin-top: 1px;
+    }
 }
