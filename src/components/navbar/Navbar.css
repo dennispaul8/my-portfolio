@@ -1,11 +1,4 @@
-.nav-cont{
-    background-color: white;
-    align-items: center;
-    height: 60px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
+
 
 .move{
     margin-left: 320px;
@@ -19,7 +12,7 @@
 .nav-txt a{
     color: black;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 .nav-txt a:hover{
@@ -37,7 +30,7 @@
 }
 
 
-@media (max-width:600px) {
+@media (max-width:640px) {
    
     
     .move{
@@ -55,6 +48,11 @@
     
     .nav-img img{
         margin-top: 1px;
+    }
+
+    .yo .nav-txt{
+        text-align: left;
+        margin-left: 10px;
     }
 }
 
@@ -77,6 +75,9 @@
     
     .nav-img img{
         margin-top: 1px;
+    }
+    .yo .nav-txt{
+        text-align: left;
     }
 }
 

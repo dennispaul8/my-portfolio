@@ -11,18 +11,21 @@ export const Projects = () => {
                 </div>
 
                 <div className="projects-list">
-                    <div className="mr_fresh">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    {/* <img className="flip-box-front--img" src="../../../public/mr-fresh-logo.jpeg" alt="Paris"/> */}
+                    <div className="mr_fresh-card">
+                                    <img className="mr_fresh-card--img" src="../../../public/mr-fresh-logo.jpeg" alt="Paris"/>
+
+                                    <div className="card-txt">
+                                        {/* <h3>MR_FRESH Kitchen</h3> */}
+                                        <p className='card-txt-info--cont'>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                                        <p className='card-txt-stack--cont'>Tech stack :<span className='tech-stack'> HTML , JavaScript, SASS, React </span></p>
+                                    </div>
+
+                                    <div className="card-links">
+                                    <a className='link' target="_blank"  href="https://mr-fresh-kitchen.vercel.app/">Live Preview</a>
+                                    <a className='link' target="_blank"  href="https://mr-fresh-kitchen.vercel.app/">View Code</a>
+
+                                    </div>
                                 </div>
-                                <div class="flip-box-back">
-                                    <a className='link' target="_blank"  href="https://mr-fresh-kitchen.vercel.app/">Visit Website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
             </div>

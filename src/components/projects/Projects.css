@@ -2,7 +2,7 @@
 .projects-cont{
     padding-top: 50px;
     text-align: center;
-    height: 400px;
+    height: 600px;
 }
 
 .projects-cont-heading{
@@ -19,76 +19,64 @@
 }
 
 .mr_fresh-card{
-    height: 200px;
-    width: 300px;
-    background: url('../../../public/svg-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 273px;
+  height: 405px;
+  top: 484px;
+  left: 218px;
+  gap: 0px;
+  border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px #000000;;
 }
 
-.flip-box {
-    background-color: transparent;
-    width: 200px;
-    height: 200px;
-    /* border: 1px solid #f1f1f1; */
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-box-front {
-    background: url("../../../public/mr-fresh-logo.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    object-fit: cover;
+.mr_fresh-card--img{
+  width: 273px;
+  height: 208px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-txt{
+  padding-top: 10px;
+}
+
+.card-txt h3{
+font-size: 22px;
+font-weight: 600;
+line-height: 26px;
+text-align: center;
+
+}
+
+.card-txt-info--cont{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: justify;
+padding-left: 13px;
+padding-right: 13px;
+color: #666666;
   }
 
-  .flip-box-front--img{
-    width: 300px;
-    height: 200px;
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-    background-color: rgb(230, 235, 193);
-    color: white;
-    transform: rotateY(180deg);
-    padding-top: 80px;
-    height: 200px;
-  }
+  .card-txt-stack--cont{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #666666;
+      }
 
-  .link{
-    display: block;
-    width: 118px;
-    height: 37px;
-    background-color: black;
-    text-align: center;
-    border-radius: 50px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    padding-top: 6px;
-  }
+      .tech-stack{
+        font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+      }
+
+      .card-links{
+        display: flex;
+      }
+
+      .link{
+        color: black;
+        font-size:14px;
+        text-decoration: underline;
+      }
