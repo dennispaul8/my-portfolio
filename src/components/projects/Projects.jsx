@@ -7,7 +7,9 @@ export const Projects = () => {
         <>
             <div id='projects' className="projects-cont">
                 <div className="projects-cont-heading">
-                    <h3>Projects</h3>
+                    <h3 className='projects-heading'>Projects</h3>
+
+                    <p className='projects-tagline'>Things I’ve built so far</p>
                 </div>
 
                 <div className="projects-list">
@@ -21,8 +23,8 @@ export const Projects = () => {
                                     </div>
 
                                     <div className="card-links">
-                                    <a className='link' target="_blank"  href="https://mr-fresh-kitchen.vercel.app/">Live Preview</a>
-                                    <a className='link' target="_blank"  href="https://mr-fresh-kitchen.vercel.app/">View Code</a>
+                                    <a className='demo-link' target="_blank"  href="https://mr-fresh-kitchen.vercel.app/"> <div className='link-icon'><i class="bi-link"></i></div>Live Preview</a>
+                                    <a className='code-link' target="_blank"  href="https://mr-fresh-kitchen.vercel.app/"><div className='github-icon'><i class="bi bi-github"></i></div>View Code</a>
 
                                     </div>
                                 </div>

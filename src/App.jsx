@@ -6,7 +6,6 @@ import AnimatedCursor from 'react-animated-cursor'
 import { Navbar } from './components/navbar/Navbar.jsx'
 import { Hero } from './components/hero/Hero.jsx'
 import { Projects } from './components/projects/Projects.jsx'
-import { Contact } from './components/contact/Contact.jsx'
 import { Footer } from './components/footer/Footer.jsx'
 import { TechStack } from './components/tech-stack/TechStack.jsx'
 
@@ -20,7 +19,6 @@ function App() {
      <Hero/>
      <TechStack/>
      <Projects/>
-     <Contact/>
      <Footer/>
     </>
   )

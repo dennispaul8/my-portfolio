@@ -9,9 +9,22 @@
     padding-bottom: 30px;
 }
 
-.projects-cont-heading h3{
-  font-size: 1.4rem;
-  font-weight: 700;
+.projects-heading{
+  color: #42446E;
+   font-size: 1.6rem;
+   font-weight: 700;
+   margin-bottom: 1rem;
+   text-transform: uppercase;
+   width: 50%;
+}
+
+.projects-tagline{
+  color: #666666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    width: 100%;
 }
 
 .projects-list{
@@ -75,8 +88,36 @@ color: #666666;
         display: flex;
       }
 
-      .link{
+      .demo-link{
         color: black;
-        font-size:14px;
+        font-size:13px;
         text-decoration: underline;
+        display: flex;
+        margin-left: 18px;
+      }
+
+      .code-link{
+        color: black;
+        font-size:13px;
+        text-decoration: underline;
+        display: flex;
+      }
+
+      .code-link:hover{
+        color: #42446E;
+      }
+
+      .github-link:hover{
+        color: #42446E;
+      }
+
+      .link-icon{
+        padding-right: 8px;
+        transform: rotate(50deg);
+        font-size: 17px;
+      }
+
+      .github-icon{
+        font-size: 15px;
+        padding-right: 8px;
       }
