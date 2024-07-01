@@ -1,6 +1,6 @@
 
 .tech-stack-cont{
-    height: 450px;
+    height: 350px;
 }
 
 .tech-stack-txt{
@@ -23,9 +23,21 @@
     font-weight: 500;
     margin-bottom: 1rem;
     text-transform: capitalize;
-    width: 50%;
+    width: 100%;
  }
 
+ .tech-icons{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 50%;
+   margin-top: 70px;
+   gap: 30px;
+ }
+ .skill-img{
+   width: 10%;
+
+ }
 
 
  @media (max-width:600px) {
@@ -87,6 +99,7 @@
       width: 100%;
    }
   
+   
  
  }
 
@@ -122,9 +135,7 @@
 
  @media (min-width:1280px) {
    .tech-stack-cont{
-      height: 450px;
-      display: flex;
-      flex-direction: row;
+      height: 350px;
   }
  
   .tech-stack-txt{

@@ -2,7 +2,7 @@
 .hero-cont{
     
     display: flex;
-    height: 500px;
+    height: 400px;
     width: 100%;
     padding-top: 50px;
 }
@@ -50,52 +50,14 @@
 
 }
 
-.skill-icons--cont{
-    margin-top: 30px;
 
-}
-
-.html-js--skills{
-    width: 19%;
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
-}
-.html-js--skills:hover{
-    transition: all .3s ease-in-out;
-    top: -10px;
-}
-
-.bs-tw--skills{
-   width: 19%;
-   margin-left: 30px;
-   position: relative;
-   top: 0;
-   transition: top ease 0.5s;
-}
-.bs-tw--skills:hover{
-    transition: all .3s ease-in-out;
-    top: -10px;
-}
-
-.react--skill{
-   margin-left: 30px;
-   width: 19%;
-   position: relative;
-   top: 0;
-   transition: top ease 0.5s;
-}
-.react--skill:hover{
-    transition: all .3s ease-in-out;
-    top: -10px;
-}
 
 
 @media (max-width: 600px) {
     .hero-cont{
         
         display: flex;
-        height: 500px;
+        height: 480px;
         width: 100%;
         padding-top: 50px;
     }
@@ -259,7 +221,7 @@
     .hero-cont{
         
         display: flex;
-        height: 500px;
+        height: 480px;
         width: 100%;
         padding-top: 50px;
     }
