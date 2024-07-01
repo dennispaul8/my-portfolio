@@ -26,7 +26,7 @@
     line-height: 1.6;
 }
 
-.tech-stack--txt{
+.social-txt{
     font-size: 17px;
     font-weight: 500;
     color: #555;
@@ -34,24 +34,31 @@
 }
 
 .hero-img-cont{
-    /* border: 1px solid red; */
     width: 16%;
     display: block;
 }
 .hero-img-cont img{
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
 }
 
 
-.tech-stack--cont{
-    align-items: center;
-   /* width: 70%; */
+.social-cont--icon{
+    margin-left: 20px;
 
 }
+.social-cont--icon img{
+    width: 6%;
+    margin-left: 10px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
 
-
-
+.social-cont--icon img:hover{
+    transition: all .3s ease-in-out;
+    top: -8px;
+}
 
 @media (max-width: 600px) {
     .hero-cont{
@@ -84,7 +91,7 @@
         text-align: center;
     }
     
-    .tech-stack--txt{
+    .social-txt{
         font-size: 17px;
         font-weight: 500;
         color: #555;
@@ -97,7 +104,7 @@
     }
     
     
-    .tech-stack--cont{
+    .social-cont{
         align-items: center;
        text-align: center;
     
@@ -108,30 +115,6 @@
         
     }
     
-    .html-js--skills{
-        width: 19%;
-        position: relative;
-        top: 0;
-        transition: top ease 0.5s;
-    }
-   
-    
-    .bs-tw--skills{
-       width: 19%;
-       margin-left: 30px;
-       position: relative;
-       top: 0;
-       transition: top ease 0.5s;
-    }
-   
-    
-    .react--skill{
-       margin-left: 30px;
-       width: 19%;
-       position: relative;
-       top: 0;
-       transition: top ease 0.5s;
-    }
     
 }
 
@@ -167,7 +150,7 @@
         text-align: center;
     }
     
-    .tech-stack--txt{
+    .social-txt{
         font-size: 17px;
         font-weight: 500;
         color: #555;
@@ -179,7 +162,7 @@
         display: none;
     }
     
-    .tech-stack--cont{
+    .social-cont{
         align-items: center;
        text-align: center;
     
@@ -189,30 +172,7 @@
         margin-top: 30px;
     }
     
-    .html-js--skills{
-        width: 12%;
-        position: relative;
-        top: 0;
-        transition: top ease 0.5s;
-    }
    
-    
-    .bs-tw--skills{
-       width: 12%;
-       margin-left: 30px;
-       position: relative;
-       top: 0;
-       transition: top ease 0.5s;
-    }
-   
-    
-    .react--skill{
-       margin-left: 30px;
-       width: 12%;
-       position: relative;
-       top: 0;
-       transition: top ease 0.5s;
-    }
     
 }
 
@@ -247,7 +207,7 @@
         text-align:left;
     }
     
-    .tech-stack--txt{
+    .social-txt{
         font-size: 17px;
         font-weight: 500;
         color: #555;
@@ -261,12 +221,12 @@
         display: block;
     }
     .hero-img-cont img{
-        margin-top: 30px;
+        margin-top: 20px;
         width: 100%;
     }
     
     
-    .tech-stack--cont{
+    .social-cont{
         align-items: center;
        text-align:left;
     
@@ -277,39 +237,5 @@
     
     }
     
-    .html-js--skills{
-        width: 19%;
-        position: relative;
-        top: 0;
-        transition: top ease 0.5s;
-        
-    }
-    .html-js--skills:hover{
-        transition: all .3s ease-in-out;
-        top: -10px;
-    }
     
-    .bs-tw--skills{
-       width: 19%;
-       margin-left: 30px;
-       position: relative;
-       top: 0;
-       transition: top ease 0.5s;
-    }
-    .bs-tw--skills:hover{
-        transition: all .3s ease-in-out;
-        top: -10px;
-    }
-    
-    .react--skill{
-       margin-left: 30px;
-       width: 19%;
-       position: relative;
-       top: 0;
-       transition: top ease 0.5s;
-    }
-    .react--skill:hover{
-        transition: all .3s ease-in-out;
-        top: -10px;
-    }
 }
