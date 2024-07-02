@@ -15,7 +15,6 @@
 
 .logo-cont{
     margin-left: 220px;
-
 }
 
 .contact-info--txt{
@@ -37,4 +36,71 @@
 .hr{
     width: 73%;
     margin: auto;
+}
+
+
+@media (max-width: 600px) {
+
+    .footer-cont{
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .contact-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .logo-cont{
+        margin-left: 40px;
+    }
+    
+    .contact-info--txt{
+        display: flex;
+        gap: 1px;
+        align-self: center;
+        padding-top: 13px;
+        margin-left: 10px;
+        flex-direction: column;
+    }
+
+    .phone-no{
+        margin-left: 31px;
+    }
+
+    .email-address{
+        margin-left: 35px;
+    }
+    
+    .social-icons--cont{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        align-content: center;
+        margin-left: 43px;
+    }
+    
+    .hr{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+@media (min-width: 768px) {
+    
+   
+    
+}
+
+
+@media (min-width:1280px) {
+    
+    
+    
+    
 }

@@ -18,9 +18,9 @@ export const Footer = () => {
                     </div>
 
                     <div className="contact-info--txt">
-                        <p>+234 806 112 4910</p>
+                        <p className='phone-no'>+234 806 112 4910</p>
 
-                        <p>jusmepaul8@gmail.com</p>
+                        <p className='email-address'>jusmepaul8@gmail.com</p>
                     </div>
 
                     <div className="social-icons--cont">
