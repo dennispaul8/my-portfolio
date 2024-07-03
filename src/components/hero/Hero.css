@@ -60,7 +60,7 @@
     top: -8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .hero-cont{
         
         display: flex;
@@ -104,15 +104,16 @@
     }
     
     
-    .social-cont{
-        align-items: center;
-       text-align: center;
+    .social-cont--icon{
+        margin-left: 10px;
     
     }
-    
-    .skill-icons--cont{
-        margin-top: 30px;
-        
+    .social-cont--icon img{
+        width: 6%;
+        margin-left: 10px;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
     }
     
     
@@ -162,14 +163,16 @@
         display: none;
     }
     
-    .social-cont{
-        align-items: center;
-       text-align: center;
+    .social-cont--icon{
+        margin-left: 10px;
     
     }
-    
-    .skill-icons--cont{
-        margin-top: 30px;
+    .social-cont--icon img{
+        width: 3%;
+        margin-left: 10px;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
     }
     
    
@@ -226,15 +229,16 @@
     }
     
     
-    .social-cont{
-        align-items: center;
-       text-align:left;
+    .social-cont--icon{
+        margin-left: 10px;
     
     }
-    
-    .skill-icons--cont{
-        margin-top: 30px;
-    
+    .social-cont--icon img{
+        width: 5%;
+        margin-left: 10px;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
     }
     
     
