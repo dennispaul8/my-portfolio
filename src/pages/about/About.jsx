@@ -1,6 +1,6 @@
 import './About.css'
 import bootstrapicon from '../../../public/bootstrap-icon.svg'
-import { Navbar } from '../navbar/Navbar'
+import { Navbar } from '../../components/navbar/Navbar'
 
 export const About = () => {
 
