@@ -1,5 +1,6 @@
 import './Navbar.css'
 import logo from '../../../public/dennis.dev.png'
+import { Link } from 'react-router-dom'
 
 export const Navbar = ()=>{
 
@@ -15,6 +16,7 @@ export const Navbar = ()=>{
     <div class="collapse navbar-collapse yo" id="navbarNavAltMarkup">
       <div class="navbar-nav nav-txt">
         <a class="nav-link" aria-current="page" href="/">Home</a>
+        <Link to='/about' class="nav-link">About</Link>
         <a class="nav-link" href="#tech-stack">Tech Stack</a>
         <a class="nav-link" href="#projects">Projects</a>
         <a class="nav-link" href="#contact">Contact</a>

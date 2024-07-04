@@ -1,0 +1,672 @@
+.about-cont {
+    width: 100%;
+    
+}
+
+.about-cont--intro {
+    width: 50%;
+    margin-left: 280px;
+    margin-top: 90px;
+}
+
+.about-cont-intro--heading{
+    color: #42446E;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.about-cont-intro--txt{
+    color: #666666;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.about-cont--experience {
+    width: 50%;
+    margin-left: 280px;
+    margin-top: 60px;
+}
+
+.about-cont-experience--heading{
+    color: #42446E;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.work-exp {
+    margin-top: 30px;
+}
+
+.role-cont {
+    display: flex;
+    align-items: center;
+}
+
+.role-cont--role {
+    margin-left: 1px;
+    color: #666666;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+
+.role-cont--contract {
+    margin-right: 1px;
+    background-color: #D7FFE0;
+    width: 76px;
+    height: 28px;
+    border-radius: 100px;
+    text-align: center;
+    color: #018C0F;
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+}
+
+.role-location--cont {
+    display: flex;
+}
+
+.role-employer{
+    margin-left: 1px;
+    color: #A7A7A7;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 10px;
+    display: flex;
+}
+.role-location{
+    margin-left: 10px;
+    color: #A7A7A7;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+}
+.role-duration{
+    margin-right: 1px;
+    color: #A7A7A7;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+}
+
+
+.about-cont--education {
+    width: 50%;
+    margin-left: 280px;
+    margin-top: 60px;
+}
+
+.about-cont-edu--heading{
+    color: #42446E;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.edu {
+    margin-top: 30px;
+}
+
+.edu-cont {
+    display: flex;
+    align-items: center;
+}
+
+.edu-cont--course{
+    margin-left: 1px;
+    color: #666666;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+
+.edu-cont--contract {
+    margin-right: 1px;
+    background-color: #D7FFE0;
+    width: 76px;
+    height: 28px;
+    border-radius: 100px;
+    text-align: center;
+    color: #018C0F;
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+}
+
+.education-location--cont {
+    display: flex;
+}
+
+.school{
+    margin-left: 1px;
+    color: #A7A7A7;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 10px;
+    display: flex;
+}
+
+.education-duration{
+    margin-right: 1px;
+    color: #A7A7A7;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+}
+
+@media (max-width:767px) {
+
+    .about-cont {
+        width: 100%;
+    }
+    
+    .about-cont--intro {
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    
+    .about-cont-intro--heading{
+        color: #42446E;
+        margin-top: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .about-cont-intro--txt{
+        color: #666666;
+        margin-top: 30px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    
+    .about-cont--experience {
+        width: 90%;
+        margin-left: 20px;
+    }
+    
+    .about-cont-experience--heading{
+        color: #42446E;
+        margin-top: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .work-exp {
+        margin-top: 30px;
+    }
+    
+    .role-cont {
+        display: flex;
+        align-items: center;
+    }
+    
+    .role-cont--role {
+        margin-left: 1px;
+        color: #666666;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+    
+    .role-cont--contract {
+        margin-right: 1px;
+        background-color: #D7FFE0;
+        width: 60px;
+        height: 24px;
+        border-radius: 100px;
+        text-align: center;
+        color: #018C0F;
+        font-weight: 600;
+        font-size: 11px;
+        border: none;
+    }
+    
+    .role-location--cont {
+        display: flex;
+        width: 100%;
+    }
+    
+    .role-employer{
+        margin-left: 1px;
+        color: #A7A7A7;
+        letter-spacing: 1px;
+        font-size: 11px;
+        font-weight: 500;
+        gap: 7px;
+        display: flex;
+    }
+    .role-location{
+        margin-left: -5px;
+        color: #A7A7A7;
+        letter-spacing: 1px;
+        display: flex;
+        gap: 7px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .role-duration{
+        margin-right: 1px;
+        color: #A7A7A7;
+        letter-spacing: 1px;
+        display: flex;
+        gap: 7px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .about-cont--education {
+        width: 90%;
+        margin-left: 20px;
+    }
+    
+    .about-cont-edu--heading{
+        color: #42446E;
+        margin-top: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .edu {
+        margin-top: 30px;
+    }
+    
+    .edu-cont {
+        display: flex;
+        align-items: center;
+    }
+    
+    .edu-cont--course{
+        margin-left: 1px;
+        color: #666666;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+    
+    .edu-cont--contract {
+        margin-right: 1px;
+        background-color: #D7FFE0;
+        width: 60px;
+        height: 24px;
+        border-radius: 100px;
+        text-align: center;
+        color: #018C0F;
+        font-weight: 600;
+        font-size: 11px;
+        border: none;
+    }
+    
+    .education-location--cont {
+        display: flex;
+        width: 100%;
+    }
+    
+    .school{
+        margin-left: 1px;
+        color: #A7A7A7;
+        letter-spacing: 1px;
+        font-size: 11px;
+        font-weight: 500;
+        gap: 7px;
+        display: flex;
+    }
+    
+    .education-duration{
+        margin-right: 1px;
+        color: #A7A7A7;
+        letter-spacing: 1px;
+        display: flex;
+        gap: 7px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    }
+
+
+    @media (min-width:768px) {
+
+        .about-cont {
+            width: 100%;
+            margin-left: 25px;
+        }
+        
+        .about-cont--intro {
+            width: 70%;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+        
+        .about-cont-intro--heading{
+            color: #42446E;
+            margin-top: 30px;
+            font-weight: 700;
+            text-align: left;
+        }
+        
+        .about-cont-intro--txt{
+            color: #666666;
+            margin-top: 30px;
+            font-weight: 400;
+            text-align: justify;
+        }
+        
+        .about-cont--experience {
+            width: 70%;
+            margin-left: 20px;
+        }
+        
+        .about-cont-experience--heading{
+            color: #42446E;
+            margin-top: 30px;
+            font-weight: 700;
+            text-align: left;
+        }
+        
+        .work-exp {
+            margin-top: 30px;
+        }
+        
+        .role-cont {
+            display: flex;
+            align-items: center;
+        }
+        
+        .role-cont--role {
+            margin-left: 1px;
+            color: #666666;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-size: 17px;
+        }
+        
+        .role-cont--contract {
+            margin-right: 1px;
+            background-color: #D7FFE0;
+            width: 60px;
+            height: 24px;
+            border-radius: 100px;
+            text-align: center;
+            color: #018C0F;
+            font-weight: 600;
+            font-size: 11px;
+            border: none;
+        }
+        
+        .role-location--cont {
+            display: flex;
+            width: 100%;
+        }
+        
+        .role-employer{
+            margin-left: 1px;
+            color: #A7A7A7;
+            letter-spacing: 1px;
+            font-size: 11px;
+            font-weight: 500;
+            gap: 7px;
+            display: flex;
+        }
+        .role-location{
+            margin-left: -5px;
+            color: #A7A7A7;
+            letter-spacing: 1px;
+            display: flex;
+            gap: 7px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        .role-duration{
+            margin-right: 1px;
+            color: #A7A7A7;
+            letter-spacing: 1px;
+            display: flex;
+            gap: 7px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+    
+        .about-cont--education {
+            width: 70%;
+            margin-left: 20px;
+        }
+        
+        .about-cont-edu--heading{
+            color: #42446E;
+            margin-top: 30px;
+            font-weight: 700;
+            text-align: left;
+        }
+        
+        .edu {
+            margin-top: 30px;
+        }
+        
+        .edu-cont {
+            display: flex;
+            align-items: center;
+        }
+        
+        .edu-cont--course{
+            margin-left: 1px;
+            color: #666666;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-size: 17px;
+        }
+        
+        .edu-cont--contract {
+            margin-right: 1px;
+            background-color: #D7FFE0;
+            width: 60px;
+            height: 24px;
+            border-radius: 100px;
+            text-align: center;
+            color: #018C0F;
+            font-weight: 600;
+            font-size: 11px;
+            border: none;
+        }
+        
+        .education-location--cont {
+            display: flex;
+            width: 100%;
+        }
+        
+        .school{
+            margin-left: 1px;
+            color: #A7A7A7;
+            letter-spacing: 1px;
+            font-size: 11px;
+            font-weight: 500;
+            gap: 7px;
+            display: flex;
+        }
+        
+        .education-duration{
+            margin-right: 1px;
+            color: #A7A7A7;
+            letter-spacing: 1px;
+            display: flex;
+            gap: 7px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+        }
+
+
+
+        @media (min-width:1024px) {
+
+            .about-cont {
+                width: 70%;
+                margin-left: 260px;
+            }
+            
+            .about-cont--intro {
+                width: 70%;
+                margin-left: 20px;
+                margin-top: 50px;
+            }
+            
+            .about-cont-intro--heading{
+                color: #42446E;
+                margin-top: 30px;
+                font-weight: 700;
+                text-align: left;
+            }
+            
+            .about-cont-intro--txt{
+                color: #666666;
+                margin-top: 30px;
+                font-weight: 400;
+                text-align: justify;
+            }
+            
+            .about-cont--experience {
+                width: 70%;
+                margin-left: 20px;
+            }
+            
+            .about-cont-experience--heading{
+                color: #42446E;
+                margin-top: 30px;
+                font-weight: 700;
+                text-align: left;
+            }
+            
+            .work-exp {
+                margin-top: 30px;
+            }
+            
+            .role-cont {
+                display: flex;
+                align-items: center;
+            }
+            
+            .role-cont--role {
+                margin-left: 1px;
+                color: #666666;
+                font-weight: 400;
+                letter-spacing: 1px;
+                font-size: 17px;
+            }
+            
+            .role-cont--contract {
+                margin-right: 1px;
+                background-color: #D7FFE0;
+                width: 60px;
+                height: 24px;
+                border-radius: 100px;
+                text-align: center;
+                color: #018C0F;
+                font-weight: 600;
+                font-size: 11px;
+                border: none;
+            }
+            
+            .role-location--cont {
+                display: flex;
+                width: 100%;
+            }
+            
+            .role-employer{
+                margin-left: 1px;
+                color: #A7A7A7;
+                letter-spacing: 1px;
+                font-size: 11px;
+                font-weight: 500;
+                gap: 7px;
+                display: flex;
+            }
+            .role-location{
+                margin-left: -5px;
+                color: #A7A7A7;
+                letter-spacing: 1px;
+                display: flex;
+                gap: 7px;
+                font-size: 11px;
+                font-weight: 500;
+            }
+            .role-duration{
+                margin-right: 1px;
+                color: #A7A7A7;
+                letter-spacing: 1px;
+                display: flex;
+                gap: 7px;
+                font-size: 10px;
+                font-weight: 500;
+            }
+        
+            .about-cont--education {
+                width: 70%;
+                margin-left: 20px;
+            }
+            
+            .about-cont-edu--heading{
+                color: #42446E;
+                margin-top: 30px;
+                font-weight: 700;
+                text-align: left;
+            }
+            
+            .edu {
+                margin-top: 30px;
+            }
+            
+            .edu-cont {
+                display: flex;
+                align-items: center;
+            }
+            
+            .edu-cont--course{
+                margin-left: 1px;
+                color: #666666;
+                font-weight: 400;
+                letter-spacing: 1px;
+                font-size: 17px;
+            }
+            
+            .edu-cont--contract {
+                margin-right: 1px;
+                background-color: #D7FFE0;
+                width: 60px;
+                height: 24px;
+                border-radius: 100px;
+                text-align: center;
+                color: #018C0F;
+                font-weight: 600;
+                font-size: 11px;
+                border: none;
+            }
+            
+            .education-location--cont {
+                display: flex;
+                width: 100%;
+            }
+            
+            .school{
+                margin-left: 1px;
+                color: #A7A7A7;
+                letter-spacing: 1px;
+                font-size: 11px;
+                font-weight: 500;
+                gap: 7px;
+                display: flex;
+            }
+            
+            .education-duration{
+                margin-right: 1px;
+                color: #A7A7A7;
+                letter-spacing: 1px;
+                display: flex;
+                gap: 7px;
+                font-size: 10px;
+                font-weight: 500;
+            }
+            }

@@ -30,7 +30,7 @@
 }
 
 
-@media (max-width:640px) {
+@media (max-width:767px) {
    
     
     .move{
@@ -107,7 +107,7 @@
     }
     
     .nav-txt{
-        width: 40%;
+        width: 49%;
     }
     
     .nav-img{
@@ -125,7 +125,7 @@
     }
     
     .nav-txt{
-        width: 40%;
+        width: 49%;
     }
     
     .nav-img{
