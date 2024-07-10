@@ -1,4 +1,5 @@
 import './ProjectList.css'
+import mr_fresh_logo from '../../../public/mr-fresh-logo.jpeg'
 
 export const ProjectsList = () => {
 
@@ -7,7 +8,7 @@ export const ProjectsList = () => {
         <>
         <div className="plc">
                     <div className="mr_fresh-card">
-                                    <img className="mr_fresh-card--img" src="../../../public/mr-fresh-logo.jpeg" alt="Paris"/>
+                                    <img className="mr_fresh-card--img" src={mr_fresh_logo} alt="Paris"/>
 
                                     <div className="card-txt">
                                         {/* <h3>MR_FRESH Kitchen</h3> */}
