@@ -8,7 +8,7 @@ export const ProjectsList = () => {
         <>
         <div className="plc">
                     <div className="mr_fresh-card">
-                                    <img className="mr_fresh-card--img" src={mr_fresh_logo} alt="Paris"/>
+                                    <img className="mr_fresh-card--img" src={mr_fresh_logo} alt="mr_fresh_logo"/>
 
                                     <div className="card-txt">
                                         {/* <h3>MR_FRESH Kitchen</h3> */}
