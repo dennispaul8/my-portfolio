@@ -1,6 +1,7 @@
 import './About.css'
 import bootstrapicon from '../../../public/bootstrap-icon.svg'
 import { Navbar } from '../../components/navbar/Navbar'
+import { Footer } from '../../components/footer/Footer'
 
 export const About = () => {
 
@@ -60,6 +61,7 @@ export const About = () => {
                     <hr />
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

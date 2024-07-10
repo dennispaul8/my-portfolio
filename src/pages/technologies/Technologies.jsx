@@ -7,6 +7,7 @@ import reacticon from '../../../public/react-icon.svg'
 import bootstrapicon from '../../../public/bootstrap-icon.svg'
 import vscodeicon from '../../../public/vscode-icon.svg'
 import githubicon from '../../../public/github-icon.svg'
+import { Footer } from '../../components/footer/Footer'
 
 export const Technologies = () => {
 
@@ -33,6 +34,7 @@ export const Technologies = () => {
                                 <img className='skill-icon' src={githubicon} />
                         </div>
             </div>
+            <Footer/>
         </>
     )
 }

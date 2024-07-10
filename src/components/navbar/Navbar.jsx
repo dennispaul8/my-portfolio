@@ -18,8 +18,8 @@ export const Navbar = ()=>{
         <a class="nav-link" aria-current="page" href="/">Home</a>
         <Link to='/about' class="nav-link">About</Link>
         <Link to='/technologies' class="nav-link">Tech Stack</Link>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link" href="#contact">Contact</a>
+        <Link to='/project' class="nav-link">Projects</Link>
+        <Link to='/contact' class="nav-link">Contact</Link>
       </div>
     </div>
   </div>

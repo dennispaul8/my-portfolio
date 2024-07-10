@@ -1,11 +1,12 @@
 .about-cont {
     width: 100%;
+    height: 100vh;
     
 }
 
 .about-cont--intro {
     width: 50%;
-    margin-left: 280px;
+    margin-left: 250px;
     margin-top: 90px;
 }
 
@@ -505,7 +506,7 @@
 
             .about-cont {
                 width: 70%;
-                margin-left: 260px;
+                margin-left: 250px;
             }
             
             .about-cont--intro {

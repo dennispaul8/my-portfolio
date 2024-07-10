@@ -62,7 +62,6 @@
 
 @media (max-width: 767px) {
     .hero-cont{
-        
         display: flex;
         height: 480px;
         width: 100%;
@@ -182,7 +181,6 @@
 
 @media (min-width:1280px) {
     .hero-cont{
-        
         display: flex;
         height: 480px;
         width: 100%;
@@ -191,6 +189,7 @@
     
     .hero-txt{
         width: 35%;
+        margin-left: 255px;
     }
     .hero-txt h1{
         color: #42446E;

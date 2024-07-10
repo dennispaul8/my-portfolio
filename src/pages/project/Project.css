@@ -1,60 +1,51 @@
-.tech-cont {
+.project-cont {
     width: 100%;
-    height: 55vh;
+    height: 75vh;
 }
 
-.tech-cont--intro {
+.project-cont--intro {
     width: 50%;
     margin-left: 250px;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
-.tech-cont-intro--heading{
+.project-cont-intro--heading{
     color: #42446E;
     margin-top: 30px;
     font-weight: 700;
 }
 
-.tech-cont-intro--txt{
+.project-cont-intro--txt{
     color: #666666;
     margin-top: 30px;
     font-weight: 400;
 }
 
-.techstack-icons{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 66%;
-    margin-top: 70px;
-    gap: 10px;
-    margin-left: 250px;
-  }
-  .skill-icon{
-    width: 8%;
+.plc{
+   margin-top: 90px;
   }
 
 
   @media (max-width:767px) {
-    .tech-cont {
+    .project-cont {
         width: 100%;
         
     }
     
-    .tech-cont--intro {
+    .project-cont--intro {
         width: 100%;
         margin-left: 1px;
         margin-top: 50px;
     }
     
-    .tech-cont-intro--heading{
+    .project-cont-intro--heading{
         color: #42446E;
         margin-top: 30px;
         font-weight: 700;
         text-align: center;
     }
     
-    .tech-cont-intro--txt{
+    .project-cont-intro--txt{
         color: #666666;
         margin-top: 30px;
         font-weight: 400;
@@ -62,41 +53,29 @@
         font-size: 15px;
     }
     
-    .techstack-icons{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 66%;
-        gap: 10px;
-        margin: auto;
-      }
-      .skill-icon{
-        width: 19%;
-        margin-top: 30px;
-      }
   }
 
 
   @media (min-width:768px) {
-    .tech-cont {
+    .project-cont {
         width: 100%;
         
     }
     
-    .tech-cont--intro {
+    .project-cont--intro {
         width: 100%;
         margin-left: 1px;
         margin-top: 50px;
     }
     
-    .tech-cont-intro--heading{
+    .project-cont-intro--heading{
         color: #42446E;
         margin-top: 30px;
         font-weight: 700;
         text-align: center;
     }
     
-    .tech-cont-intro--txt{
+    .project-cont-intro--txt{
         color: #666666;
         margin-top: 30px;
         font-weight: 400;
@@ -104,39 +83,27 @@
         font-size: 18px;
     }
     
-    .techstack-icons{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 66%;
-        gap: 10px;
-        margin: auto;
-      }
-      .skill-icon{
-        width: 14%;
-        margin-top: 30px;
-      }
   }
 
   @media (min-width:1024px) {
-    .tech-cont {
+    .project-cont {
         width: 100%;
     }
     
-    .tech-cont--intro {
+    .project-cont--intro {
         width: 100%;
         margin-left: 276px;
         margin-top: 50px;
     }
     
-    .tech-cont-intro--heading{
+    .project-cont-intro--heading{
         color: #42446E;
         margin-top: 30px;
         font-weight: 700;
         text-align: left;
     }
     
-    .tech-cont-intro--txt{
+    .project-cont-intro--txt{
         color: #666666;
         margin-top: 30px;
         font-weight: 400;
@@ -144,40 +111,29 @@
         font-size: 18px;
     }
     
-    .techstack-icons{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 66%;
-        gap: 10px;
-        margin-left: 250px;
-      }
-      .skill-icon{
-        width: 8%;
-        margin-top: 30px;
-      }
+    
   }
 
 
    @media (min-width:1024px) {
-    .tech-cont {
+    .project-cont {
         width: 100%;
     }
     
-    .tech-cont--intro {
+    .project-cont--intro {
         width: 100%;
         margin-left: 259px;
         margin-top: 50px;
     }
     
-    .tech-cont-intro--heading{
+    .project-cont-intro--heading{
         color: #42446E;
         margin-top: 30px;
         font-weight: 700;
         text-align: left;
     }
     
-    .tech-cont-intro--txt{
+    .project-cont-intro--txt{
         color: #666666;
         margin-top: 30px;
         font-weight: 400;
@@ -185,16 +141,5 @@
         font-size: 18px;
     }
     
-    .techstack-icons{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 66%;
-        gap: 10px;
-        margin-left: 250px;
-      }
-      .skill-icon{
-        width: 8%;
-        margin-top: 30px;
-      }
+    
   }
