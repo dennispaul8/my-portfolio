@@ -1,35 +1,32 @@
-
-.projects-cont{
+.projects-cont {
     padding-top: 20px;
     text-align: center;
-    height: 600px;
     margin-bottom: 190px;
 }
 
-.projects-cont-heading{
-    padding-bottom: 30px;
+.projects-cont-heading {
+    /* padding-bottom: 10px; */
 }
 
-.projects-heading{
-  color: #42446E;
-   font-size: 1.6rem;
-   font-weight: 700;
-   margin-bottom: 1rem;
-   text-transform: uppercase;
-   width: 50%;
+.projects-heading {
+    color: #42446E;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    width: 50%;
 }
 
-.projects-tagline{
-  color: #666666;
+.projects-tagline {
+    color: #666666;
     font-size: 1.1rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     text-transform: capitalize;
     width: 100%;
 }
 
-.projects-list{
-    padding-bottom: 100px;
-    margin-top: -50px;
+.projects-list {
+    padding-bottom: 60px;
+    display: flex;
 }
-
