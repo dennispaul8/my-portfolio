@@ -2,28 +2,28 @@ import './Navbar.css'
 import logo from '../../../public/dennis.dev.png'
 import { Link } from 'react-router-dom'
 
-export const Navbar = ()=>{
+export const Navbar = () => {
 
-  return(
+  return (
     <>
 
-<nav class="navbar navbar-expand-lg" >
-  <div class="container-fluid move">
-    <a class="navbar-brand nav-img" href="#"><img src={logo} alt="" /></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse yo" id="navbarNavAltMarkup">
-      <div class="navbar-nav nav-txt">
-        <a class="nav-link" aria-current="page" href="/">Home</a>
-        <Link to='/about' class="nav-link">About</Link>
-        <Link to='/technologies' class="nav-link">Tech Stack</Link>
-        <Link to='/project' class="nav-link">Projects</Link>
-        <Link to='/contact' class="nav-link">Contact</Link>
-      </div>
-    </div>
-  </div>
-</nav>
+      <nav className="navbar navbar-expand-lg" >
+        <div className="container-fluid move">
+          <a className="navbar-brand nav-img" href="#"><img src={logo} alt="" /></a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse yo" id="navbarNavAltMarkup">
+            <div className="navbar-nav nav-txt">
+              <a className="nav-link" aria-current="page" href="/">Home</a>
+              <Link to='/about' className="nav-link">About</Link>
+              <Link to='/technologies' className="nav-link">Tech Stack</Link>
+              <Link to='/project' className="nav-link">Projects</Link>
+              <Link to='/contact' className="nav-link">Contact</Link>
+            </div>
+          </div>
+        </div>
+      </nav>
 
     </>
   )
