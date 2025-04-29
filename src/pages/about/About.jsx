@@ -19,14 +19,11 @@ export const About = () => {
             users.
           </p>
           <p className="about-cont-intro--txt">
-            Currently, I work at Tabs as a Frontend Developer, where I’ve
-            contributed to scaling features, improving performance, and
-            enhancing user experience across a dynamic web platform. I enjoy
-            solving problems through code, collaborating with cross-functional
-            teams, and constantly learning new technologies to stay ahead in a
-            fast-evolving ecosystem. When I’m not coding, you’ll find me
-            exploring design trends, tinkering with side projects, or digging
-            into articles about the future of web development.
+            I enjoy solving problems through code, collaborating with
+            cross-functional teams, and constantly learning new technologies to
+            stay ahead in a fast-evolving ecosystem. When I’m not coding, you’ll
+            find me exploring design trends, tinkering with side projects, or
+            digging into articles about the future of web development.
             <br />
             <br />
             Let’s build something great together.
