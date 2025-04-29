@@ -14,8 +14,13 @@ export const About = () => {
                     <h2 className="about-cont-intro--heading">About Me</h2>
 
                     <p className="about-cont-intro--txt">
-                    The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. 
-                    It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.
+                   I’m a Frontend Developer with a strong drive for crafting intuitive, accessible, and high-performance web applications. With hands-on experience in React.js, TypeScript, Redux, and Next.js, I specialize in building responsive user interfaces that deliver real value to users.
+
+Currently, I work at Tabs as a Junior Frontend Developer, where I’ve contributed to scaling features, improving performance, and enhancing user experience across a dynamic web platform. I enjoy solving problems through code, collaborating with cross-functional teams, and constantly learning new technologies to stay ahead in a fast-evolving ecosystem.
+
+When I’m not coding, you’ll find me exploring design trends, tinkering with side projects, or digging into articles about the future of web development.
+
+Let’s build something great together.
                     </p>
                 </div>
 
@@ -24,17 +29,25 @@ export const About = () => {
 
                     <div className="work-exp">
                             <div className="role-cont">
-                                <h3 className='role-cont--role'>Junior Web Developer</h3>
+                                <h3 className='role-cont--role'>Junior Frontend Developer</h3>
 
                                 <button className='role-cont--contract'>Full Time</button>
                             </div>
 
                             <div className="role-location--cont">
+                                <p className='role-employer'><div className='app-icon'><i class="bi bi-building"></i></div>Tabs</p>
+
+                                <p className='role-location'><div className='app-icon'><i class="bi bi-geo-alt-fill"></i></div>Remote</p>
+
+                                <p className='role-duration'><div className='app-icon'><i class="bi bi-calendar3"></i></div>Nov 2024 - Present</p>
+                            </div>
+
+                         <div className="role-location--cont">
                                 <p className='role-employer'><div className='app-icon'><i class="bi bi-building"></i></div>Retink</p>
 
-                                <p className='role-location'><div className='app-icon'><i class="bi bi-geo-alt-fill"></i></div>Bengaluru</p>
+                                <p className='role-location'><div className='app-icon'><i class="bi bi-geo-alt-fill"></i></div>Remote</p>
 
-                                <p className='role-duration'><div className='app-icon'><i class="bi bi-calendar3"></i></div>Feb 2022 - Aug 2023</p>
+                                <p className='role-duration'><div className='app-icon'><i class="bi bi-calendar3"></i></div>Sep 2022 - July 2023</p>
                             </div>
                     </div>
                     
@@ -46,7 +59,7 @@ export const About = () => {
 
                     <div className="edu">
                             <div className="edu-cont">
-                                <h3 className='edu-cont--course'>B.SC. Information Technology</h3>
+                                <h3 className='edu-cont--course'>B.SC. Information and Communication Science</h3>
 
                                 <button className='edu-cont--contract'>Full Time</button>
                             </div>
