@@ -111,3 +111,15 @@
   font-size: 15px;
   padding-right: 8px;
 }
+
+
+@media (max-width:600px){
+
+  .plc {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
